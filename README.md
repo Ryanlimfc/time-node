@@ -16,7 +16,7 @@ def timer():
 
 #while running, if the milliseconds reach 10 then seconds tick over to 1
 #if the seconds reach 60 then the minutes tick over to 1 etc.
-# all runs within a loop while true
+#all runs within a loop while true
 while True:
     millisecond +=1
     if millisecond ==9:
